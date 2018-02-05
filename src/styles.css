@@ -1468,7 +1468,8 @@ textarea {
 	border-color: #747474;
 }
 
-.main-navigation li.current-menu-item>a:before {
+.main-navigation li.current-menu-item>a:before,
+.main-navigation li a.active:before {
 	border-color: #40608f;
 }
 
