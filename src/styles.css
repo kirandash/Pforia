@@ -1231,22 +1231,22 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder, .form-control::-ms-
 	top: 48px;
 }
 
-.main-box>article[data-rel="main"] {
+.main-box article[data-rel="main"] {
 	margin-left: 240px;
 	margin-bottom: 15px;
 }
 
-.main-box>article[data-rel="main"] h1, .main-box>article[data-rel="main"] h2, .main-box>article[data-rel="main"] h3,
-.main-box>article[data-rel="main"] h4, .main-box>article[data-rel="main"] h5, .main-box>article[data-rel="main"] h6 {
+.main-box article[data-rel="main"] h1, .main-box article[data-rel="main"] h2, .main-box article[data-rel="main"] h3,
+.main-box article[data-rel="main"] h4, .main-box article[data-rel="main"] h5, .main-box article[data-rel="main"] h6 {
 	color: #40608f;
 	font-family: 'titillium_websemibold', sans-serif;
 }
 
-.page-template-page-service .main-box>article[data-rel="main"] {
+.page-template-page-service .main-box article[data-rel="main"] {
 	padding-bottom: 6px;
 }
 
-.page-template-page-provisions .main-box>article[data-rel="main"] {
+.page-template-page-provisions .main-box article[data-rel="main"] {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -1288,7 +1288,7 @@ textarea {
 	.main-box .overlay {
 		left: 8.9%;
 	}
-	.main-box>article[data-rel="main"] {
+	.main-box article[data-rel="main"] {
 		margin-left: 26.9%;
 		width: 62%;
 	}			
@@ -1315,7 +1315,7 @@ textarea {
 	.main-box {
 		padding: 47px 49px 84px 49px;
 	}	
-	.page-template-page-provisions .main-box>article[data-rel="main"] {
+	.page-template-page-provisions .main-box article[data-rel="main"] {
 		margin-bottom: 25px;
 	}	
 }
