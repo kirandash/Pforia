@@ -1,11 +1,8 @@
-<style>
-.banner {
-	background: url('http://pneuforia.fr/wp-content/uploads/2016/06/frontbanner.jpg') no-repeat; 
-	background-size: cover; 
-	background-position: center;
-}
-</style>
-<div class="banner">
+<div class="banner" 
+        [ngStyle]="{ 'background': 'url(' + bannerImage +') no-repeat', 
+                     'background-size': 'cover',
+                     'background-position': 'center'   
+                   }">
     <div class="banner-info">
         <div class="title">
             <h1>Complet, rapide <br>et abordable</h1>
