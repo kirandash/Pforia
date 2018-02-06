@@ -1424,6 +1424,7 @@ textarea {
 	position: absolute;
 	bottom: 49px;
 	right: 102px;
+	cursor: pointer;
 }
 
 .main-menu-wrap {
