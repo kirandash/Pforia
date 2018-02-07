@@ -10,6 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 import { routes } from './app.route';
+import { BrandSliderComponent } from './components/brand-slider/brand-slider.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { routes } from './app.route';
     HeaderComponent,
     BannerComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    BrandSliderComponent
   ],
   imports: [
     BrowserModule,
